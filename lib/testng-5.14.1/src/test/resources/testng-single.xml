@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+  
+<suite name="SingleSuite" verbose="2" parallel="false" thread-count="4"
+    data-provider-thread-count="3" time-out="1000">
+
+  <parameter name="n" value="42" />
+
+  <listeners>
+<!--
+    <listener class-name="test.methodinterceptors.FastTestsFirstInterceptor" />
+    <listener class-name="test.invokedmethodlistener.MyListener" />
+-->  
+  </listeners>
+
+  <test name="Regression2" preserve-order="true">
+<!--
+    <packages>
+      <package name="test.testng355.org.apache.tapestry5" />
+      <package name="test.hook" />
+    </packages>
+-->
+    <groups>
+      <run>
+        <exclude name="broken" />
+<!-- 
+        <include name="verifyBaseClassTestListener" />
+ -->
+       </run>
+    </groups>
+    <parameter name="string" value="s"/>
+    <classes>
+      <class name="test.timeout.TimeOutFromXmlTest" />
+<!-- 
+      <class name="test.timeout.TestTimeOutSampleTest" />
+      <class name="test.tmp.A" />
+	      <methods>
+	        <include name="configurableSuccess" />
+	      </methods>
+	    </class>
+      <class name="test.tmp.C2"/>
+      </class>
+        <methods>
+          <include name="verifyBaseClassTestListener" />
+        </methods>
+      <class name="test.sample.InvocationCountTest" />
+      <class name="test.preserveorder.SibTest"/>
+      <class name="test.preserveorder.EdnTest"/>
+ -->
+     </classes>
+  </test>
+<!-- 
+      <class name="test.xml.XmlVerifyTest">
+      <class name="test.listeners.ResultEndMillisTest">
+       </class>
+ -->
+<!-- 
+       <class name="test.inject.NoInjectionTest" />
+      <class name="test.tmp.B" />
+      </class>
+    </classes>
+  </test>
+ -->
+
+</suite>
+

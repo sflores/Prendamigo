@@ -1,0 +1,20 @@
+.button-facebook {
+    background-image: url("/resources/image/facebook.png") !important;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+.button-twitter {
+    background-image: url("/resources/image/twitter.png") !important;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+.button-youTube {
+    background-image: url("/resources/image/youTube.png") !important;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    padding-right: 5px;
+}

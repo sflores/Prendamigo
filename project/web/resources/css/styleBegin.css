@@ -1,0 +1,65 @@
+#attention
+{
+  width:1020px;
+  height:750px;
+}
+
+#goldPromotion
+{
+   background:url(/resources/image/Image.png) no-repeat;
+   background-position: -1px -1478px !important;
+   width:238px;
+   height:389px;
+   position:relative;
+   top:-100px;
+   left:20px;
+}
+#attentionHeader
+{
+ position:relative;
+    top:5px;
+    left:20px;
+}
+
+#contact
+{
+    position:relative;
+    top:-200px;
+    left:600px;
+}
+
+#communicate
+{
+ position:relative;
+    top:30px;
+    left:50px;
+}
+
+#phone
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -1100px !important;
+    width:235px;
+    height:372px;
+    position:relative;
+    top:-200px;
+    left:500px;
+}
+
+#footerAttention
+{
+    position:relative;
+    top:40px;
+    left:300px;
+}
+
+#contact
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -685px -1100px !important;
+    width:274px;
+    height:379px;
+    position:relative;
+    top:-600px;
+    left:-200px;
+}

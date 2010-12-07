@@ -1,0 +1,290 @@
+#mainDiv {
+    width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+#divHeader {
+    width: 1020px;
+    height: 117px;
+    background: url("/resources/image/Image.png") no-repeat;
+    z-index: 1;
+}
+
+#logo {
+    background: url("/resources/image/Image.png") no-repeat;
+    position: relative;
+    width: 233px;
+    height: 116px;
+    top: 0;
+    left: 25px;
+    background-position: -1px -127px !important;
+}
+
+#messagePrincipal {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    width: 515px;
+    height: 94px;
+    left: 269px;
+    top: -120px;
+}
+
+#barheader {
+    position: relative;
+    width: 724px;
+    height: 22px;
+    top: -245px;
+    left: 270px;
+    font-size: 16.3px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration:none;
+}
+
+#yellow {
+    font-family:sans-serif;
+    color: #f6f60b;
+}
+
+#message {
+    color: #ffff33;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#buttons {
+    position: relative;
+    width: 174px;
+    height: 92px;
+    top: -250px;
+    left: 810px;
+}
+
+#facebook {
+    background: url("/resources/image/Image.png") no-repeat;
+    position: absolute;
+    top: 40px;
+    right: 115px;
+    width: 39px;
+    height: 39px;
+    background-position: -234px -128px !important;
+    z-index: 2;
+}
+
+#twitter {
+    background: url("/resources/image/Image.png") no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    background-position: -272px -128px !important;
+    width: 38px;
+    height: 38px;
+}
+
+#youtube {
+    background: url("/resources/image/Image.png") no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 123px;
+    width: 38px;
+    height: 39px;
+    background-position: -311px -128px !important;
+}
+
+#divFooter {
+    background: url("/resources/image/Image.png") no-repeat;
+    position: relative;
+    width: 1020px;
+    height: 341px;
+    background-position: 0 -244px !important;
+    z-index: 1;
+}
+
+#Survey {
+    width: 400px;
+    height: 190px;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+
+#whiteSurvey {
+    width: 230px;
+    background: #d01717;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#graySurvey {
+    background: #cccccc;
+}
+
+#divCenter {
+
+    width: 470px;
+    height: 250px;
+    position: relative;
+    top: -160px;
+    left: 282px;
+    z-index: 1;
+}
+
+#1, #2, #3, #4 {
+    font-size: 3px;
+    color: #999999;
+    text-align: center;
+}
+
+
+#watch {
+    position: relative;
+    width: 69px;
+    height: 20px;
+    top: -5px;
+    left: -100px;
+}
+
+#video {
+    background: url("/resources/image/Image.png");
+    background-position: -392px -128px !important;
+    position: relative;
+    width: 121px;
+    height: 99px;
+    z-index: 2;
+    top: -10px;
+    left: 110px;
+}
+
+#map {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    top: -450px;
+    left: 765px;
+    z-index: 1;
+}
+
+#divSearch {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    top: -50px;
+    left: 0;
+    z-index: 3;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#search {
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+#sMessage {
+    position: relative;
+    width: 120px;
+    height: 50px;
+    top: 70px;
+    left: 0;
+}
+
+#links {
+    font-size: 11px;
+    color: #999999;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: -140px;
+    left: 260px;
+}
+
+#videop {
+    font-size: 18px;
+    color: #ff0033;
+    position: relative;
+    top: 10px;
+    left: -100px;
+}
+
+#link {
+    font-size: 18px;
+    color: #ff0033;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+#mapImage {
+    background: url("/resources/image/Image.png") no-repeat;
+    background-position: 0 -586px !important;
+    width: 226px;
+    height: 136px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    z-index: 2;
+
+}
+
+#magnifyingGlass {
+    background: url("/resources/image/Image.png") no-repeat;
+    background-position: -349px -128px !important;
+    width: 42px;
+    height: 40px;
+    position: relative;
+    top: -70px;
+    left: 170px;
+    z-index: 3;
+}
+
+#barFooter {
+    width: 1020px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: -500px;
+    left: 0;
+    text-decoration:none;
+}
+
+#footer {
+    width: 1020px;
+    height: 40px;
+    position: relative;
+    top: -490px;
+    left: 0;
+}
+
+#r {
+    text-align: right;
+    font-size: 17px;
+    color: #999999;
+}
+
+#r2 {
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+}
+
+.topMenu:link {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16.3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+

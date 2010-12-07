@@ -1,0 +1,8 @@
+<suite name="Suites 2">
+
+  <test name="Suites 2 Tests">
+    <classes>
+      <class name="test.sample.Sample2"/>
+    </classes>
+  </test>
+</suite>

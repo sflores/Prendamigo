@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='example' parallel="methods">
+  <test name="lang-filter">
+  	<parameter name="lang" value="en"/>
+  	<classes>
+  		<class name="test.tmp.david.LangFilterTest" />
+  	</classes>
+  </test>
+  <listeners>
+  	<listener class-name="test.tmp.david.LangFilter" />
+  </listeners>
+</suite>

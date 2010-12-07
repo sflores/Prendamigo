@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <security-config>
+    <login>
+        <url>/j_security_check</url>
+        <userNameParamName>j_username</userNameParamName>
+        <passwordParamName>j_password</passwordParamName>
+        <persistentParamName>j_persistent</persistentParamName>
+    </login>
+    <logout>
+        <url>/logout</url>
+    </logout>
+    <persistent-login-config>
+        <cookie-name>AuthorizationInfo</cookie-name>
+        <max-cookie-age-in-days>15</max-cookie-age-in-days>
+        <cookie-encryption-key>FECBD27E-9BEE-11DF-A1DD-4434DFD72085</cookie-encryption-key>
+    </persistent-login-config>
+    <system-defined-users>
+        <user name="admin" password="admin">
+            <role>general.admin</role>
+        </user>
+        <user name="user" password="pass">
+            <role>user</role>
+        </user>
+    </system-defined-users>
+    <system-defined-roles>
+        <role name="general.admin" text="Administrador de Sistema">
+            <inheritRole>*</inheritRole>
+        </role>
+    </system-defined-roles>
+    <gmail-auth-domains>
+        <domain>prendamigo.com</domain>
+    </gmail-auth-domains>
+ </security-config>
