@@ -74,7 +74,7 @@
     right: 125px;
     width: 33px;
     height: 33px;
-    background-position: -234px -129px !important;
+    background-position: -235px -129px !important;
     z-index: 2;
 }
 
@@ -152,6 +152,7 @@
     width: 51px;
     height: 20px;
     left:160px;
+    border:none;
 }
 
 
@@ -172,12 +173,13 @@
 
 #watch {
     background:url("/resources/image/Image.png");
-    background-position: -234px -168px !important;
+    background-position: -305px -213px !important;
     position: relative;
-    width: 69px;
-    height: 20px;
+    width: 78px;
+    height: 30px;
     top: 0;
     left: -100px;
+    border:none;
 }
 
 #video {
@@ -219,15 +221,18 @@
     height:20px;
     top: 60px;
     left: 150px;
-
+    border:none;
 }
 
 #sMessage {
     position: relative;
-    width: 120px;
+    width: 180px;
     height: 50px;
     top: 70px;
     left: 0;
+    font-family:sans-serif;
+    font-size:11px;
+    color: #999999;    
 }
 
 #links {
@@ -241,13 +246,21 @@
     left: 260px;
 }
 
-#videop {
+#videop,#attentionHeader,#communicate,#footerAttention
+{
     font-size: 17px;
     font-family: sans-serif;
-    color: #ff0033;
+    color: #df0f0f;
     position: relative;
     top: 10px;
     left: -100px;
+}
+
+#rh
+{
+    font-size:12px;
+    font-family:sans-serif;
+    color: #df0f0f;
 }
 
 #link {
@@ -264,7 +277,7 @@
     width: 226px;
     height: 100px;
     position: relative;
-    top: 10px;
+    top: 30px;
     left: 0;
     z-index: 2;
 }
@@ -276,7 +289,7 @@
     height: 40px;
     position: relative;
     top: -70px;
-    left: 170px;
+    left: 190px;
     z-index: 3;
 }
 
@@ -317,7 +330,8 @@
     color: #999999;
 }
 
-#r2 {
+#r2
+{
     text-align: right;
     font-size: 14px;
     color: #999999;
@@ -368,7 +382,34 @@
     position:relative;
     top:-30px;
     left:170px;
+    border:none;
     z-index:10;
+}
+
+#enterAttention
+{
+  background:url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -191px !important;
+    width:74px;
+    height:20px;
+    position:relative;
+    top:290px;
+    left:130px;
+    border:none;
+    z-index:11;
+}
+
+#greenMore
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -468px -691px !important;
+    width:78px;
+    height:61px;
+    position:relative;
+    top:315px;
+    left:152px;
+    border:none;
+    z-index:12;
 }
 
 #titleNeed
@@ -406,6 +447,11 @@
     font-family:sans-serif;
     font-size:14px;
     color: #999999;
+}
+
+#needButton,#branchButton,#promotionButton
+{
+    border:none;
 }
 
 .ul
@@ -493,6 +539,7 @@
     height:24px;
     position:relative;
     top:120px;
+    border:none;
     left:400px;
 }
 
@@ -511,43 +558,55 @@
     left:-540px;  
 }
 
-.h4
+.h4,#detailsRed,#usRed
 {
     color:#ee1c24;
 }
 
 #attention
 {
-  width:1020px;
-  height:auto;
+    width:1020px;
+    height:750px;    
 }
 
 #goldPromotion
 {
    background:url(/resources/image/Image.png) no-repeat;
-   background-position: -1px -1478px !important;
-   width:238px;
-   height:389px;
+   background-position: 0 -1474px !important;
+   width:230px;
+   height:375px;
    position:relative;
-   top:0;
-   left:26px;
+   top:10px;
+   left:31px;
+}
+
+#bannerAttention2
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -1100px !important;
+    width:235px;
+    height:372px;
+    position:relative;
+    top:10px;
+    left:30px;
 }
 
 #attentionHeader
 {
  position:relative;
-    top:0;
-    left:500px;
-    width:100px;
-    height:200px;
+    top:-1030px;
+    left:290px;
+    width:600px;
+    height:100px;
 }
 
 #communicate
 {
  position:relative;
-    top:-300px;
-    left:500px;
-    width:100px;
+    font-size:20px;
+    top:-1050px;
+    left:600px;
+    width:400px;
     height:200px;
 }
 
@@ -558,18 +617,18 @@
     width:371px;
     height:315px;
     position:relative;
-    top:-600px;
-    left:580px;
+    top:-1150px;
+    left:600px;
     z-index:8;
 }
 
 #footerAttention
 {
     position:relative;
-    top:-500px;
-    left:600px;
-    width:400px;
-    height:200px;
+    top:-1160px;
+    left:550px;
+    width:600px;
+    height:100px;
 }
 
 #contact
@@ -579,7 +638,7 @@
     width:274px;
     height:379px;
     position:relative;
-    top:-500px;
+    top:-550px;
     left:290px;
 }
 
@@ -592,25 +651,115 @@
     height:180px;
 }
 
-#bannerAttention2
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: 0 -1100px !important;
-    width:235px;
-    height:372px;
-    position:relative;
-    top:50px;
-    left:30px;
-}
-
 #send
 {
     background:url(/resources/image/Image.png) no-repeat;
-    background-position: -518px -216px !important;
-    width:78px;
-    height:23px;
+    background-position: -517px -218px !important;
+    width:74px;
+    height:19px;
     position:relative;
-    top:0;
-    left:-90px;
+    top:30px;
+    left:-80px;
+    border:none;
     z-index:9;
 }
+
+#p,#communicateGray
+{
+    font-family:sans-serif;
+    color:gray;
+    font-size:16px;
+}
+
+#p1
+{
+    font-family:sans-serif;
+    color:gray;
+    font-size:12px;
+    position:relative;
+    top:-20px;
+    left:50px;    
+}
+
+#us
+{
+    width:1020px;
+    height:750px;
+}
+
+#usText
+{
+    position:relative;
+    top:-700px;
+    left:340px;
+    font-family:sans-serif;
+    font-size:15px;
+    width:600px;
+    height:100px;
+    }
+
+#prendamigoImage
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -239px -1368px !important;
+    position:relative;
+    top:-660px;
+    left:450px;
+    z-index:13;
+    width:331px;
+    height:112px;
+}
+
+#details
+{
+    position:relative;
+    top:-600px;
+    left:340px;
+    font-family:sans-serif;
+    font-size:15px;
+    width:600px;
+}
+
+#buttonsDetails
+{
+    position:relative;
+    top:-600px;
+    left:600px;
+    border:none;
+}
+
+#printerImage
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position:-578px -155px !important;
+    width:62px;
+    height:56px;
+    border:none;
+}
+
+#adobe
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -516px -155px !important;
+    border:none;
+    width:61px;
+    height:54px;
+}
+
+#seeMore3
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -213px !important;
+    border:none;
+    width:78px;
+    height:30px;
+}
+#usGray,#usGray2,#detailsGray,#detailsGray2
+{
+    color:#999999
+}
+
+
+
+
+

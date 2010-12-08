@@ -1,65 +1,67 @@
-#attention
+#us
 {
-  width:1020px;
-  height:750px;
+    width:1020px;
+     height:750px;
 }
 
-#goldPromotion
-{
-   background:url(/resources/image/Image.png) no-repeat;
-   background-position: -1px -1478px !important;
-   width:238px;
-   height:389px;
-   position:relative;
-   top:-100px;
-   left:20px;
-}
-#attentionHeader
-{
- position:relative;
-    top:5px;
-    left:20px;
-}
-
-#contact
+#usText
 {
     position:relative;
-    top:-200px;
-    left:600px;
-}
+    top:0;
+    left:0;
+    font-family:sans-serif;
+    font-size:15px;
+    }
 
-#communicate
-{
- position:relative;
-    top:30px;
-    left:50px;
-}
-
-#phone
+#prendamigoImage
 {
     background:url(/resources/image/Image.png) no-repeat;
-    background-position: 0 -1100px !important;
-    width:235px;
-    height:372px;
+    background-position: -239px -1368px !important;
     position:relative;
-    top:-200px;
-    left:500px;
+    top:0;
+    left:0;
 }
 
-#footerAttention
+#details
 {
     position:relative;
-    top:40px;
-    left:300px;
+    top:0;
+    left:0;
+    font-family:sans-serif;
+    font-size:15px;
 }
 
-#contact
+#buttonsDetails
+{
+    position:relative;
+    top:0;
+    left:0;
+}
+
+#printerImage
 {
     background:url(/resources/image/Image.png) no-repeat;
-    background-position: -685px -1100px !important;
-    width:274px;
-    height:379px;
+    background-position:-578px -155px !important;
     position:relative;
-    top:-600px;
-    left:-200px;
+    top:0;
+    left:0;
 }
+
+#adobe
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -516px -155px !important;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+#seeMore3
+{
+    background:url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -213px !important;
+    position:relative;
+    top:0;
+    left:0;
+}
+
