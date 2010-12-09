@@ -25,7 +25,7 @@
 #messagePrincipal {
     font-size: 20px;
     color: white;
-    font-family: sans-serif;
+    font-family:helvica;
     text-align: center;
     position: relative;
     width: 515px;
@@ -42,20 +42,20 @@
     left: 270px;
     font-size: 16.3px;
     color: white;
-    font-family: sans-serif;
+    font-family: helvica;
     text-align: center;
     text-decoration:none;
 }
 
 #yellow {
-    font-family:sans-serif;
+    font-family:helvica;
     color: #f6f60b;
 }
 
 #message {
     color: #ffff33;
     text-align: center;
-    font-family: sans-serif;
+    font-family:helvica;
     font-size: 18px;
 }
 
@@ -101,10 +101,10 @@
 #tableButton
 {
     text-align: center;
-    font-family: sans-serif;
+    font-family:helvica;
     font-size: 13px;
     color:white;
-    position: relative;    
+    position: relative;
     top:-20px;
     left:-8px
     }
@@ -210,7 +210,7 @@
     left: 0;
     z-index: 3;
     font-size: 12px;
-    font-family: sans-serif;
+    font-family:helvica;
 }
 
 #search {
@@ -230,14 +230,14 @@
     height: 50px;
     top: 70px;
     left: 0;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:11px;
-    color: #999999;    
+    color: #999999;
 }
 
 #links {
     font-size: 11px;
-    font-family: sans-serif;
+    font-family:helvica;
     color: #999999;
     position: relative;
     width: 200px;
@@ -249,7 +249,7 @@
 #videop,#attentionHeader,#communicate,#footerAttention
 {
     font-size: 17px;
-    font-family: sans-serif;
+    font-family:helvica;
     color: #df0f0f;
     position: relative;
     top: 10px;
@@ -259,7 +259,7 @@
 #rh
 {
     font-size:12px;
-    font-family:sans-serif;
+    font-family:helvica;
     color: #df0f0f;
 }
 
@@ -273,9 +273,9 @@
 
 #mapImage {
     background: url("/resources/image/Image.png") no-repeat;
-    background-position: 0 -586px !important;
-    width: 226px;
-    height: 100px;
+    background-position: -689px -589px !important;
+    width: 225px;
+    height: 136px;
     position: relative;
     top: 30px;
     left: 0;
@@ -298,7 +298,7 @@
     height: 30px;
     font-size: 13px;
     color: white;
-    font-family: sans-serif;
+    font-family:helvica;
     position: relative;
     top: -440px;
     left: 60px;
@@ -310,10 +310,10 @@
     height: 30px;
     font-size: 13px;
     color: white;
-    font-family: sans-serif;
+    font-family:helvica;
     position: relative;
     top: -470px;
-    left: 800px;     
+    left: 800px;
 }
 
 #footer {
@@ -359,7 +359,7 @@
     height:328px;
     position:relative;
     top:0;
-    left:0;    
+    left:0;
 }
 
 #bannerAttention
@@ -424,7 +424,7 @@
     z-index:1;
 }
 
-#imegeNeed
+#imageNeed
 {
     background:url(/resources/image/Image.png) no-repeat;
     background-position: -236px -1234px !important;
@@ -444,7 +444,7 @@
     top:-330px;
     left:310px;
     z-index:3;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:14px;
     color: #999999;
 }
@@ -468,7 +468,7 @@
     width:218px;
     height:28px;
     position:relative;
-    top:-710px;
+    top:-690px;
     left:550px;
 }
 
@@ -479,7 +479,7 @@
     width:222px;
     height:132px;
     position:relative;
-    top:-710px;
+    top:-690px;
     left:548px;
 }
 
@@ -488,10 +488,10 @@
     position:relative;
     width:220px;
     height:200px;
-    top:-710px;
+    top:-690px;
     left:560px;
     z-index:4;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:14px;
     color: #999999;
 }
@@ -503,7 +503,7 @@
     width:222px;
     height:28px;
     position:relative;
-    top:-1090px;
+    top:-1050px;
     left:790px;
 }
 
@@ -514,19 +514,19 @@
     width:220px;
     height:131px;
     position:relative;
-    top:-1090px;
+    top:-1050px;
     left:790px;
 }
 
 #promotionText
 {
     position:relative;
-    top:-1090px;
+    top:-1050px;
     left:800px;
     width:200px;
     height:200px;
     z-index:4;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:14px;
     color: #999999;
 }
@@ -554,11 +554,11 @@
 #tableSee
 {
    position:relative;
-    top:-170px;
-    left:-540px;  
+    top:-150px;
+    left:-540px;
 }
 
-.h4,#detailsRed,#usRed
+#detailsRed,#usRed
 {
     color:#ee1c24;
 }
@@ -566,7 +566,7 @@
 #attention
 {
     width:1020px;
-    height:750px;    
+    height:750px;
 }
 
 #goldPromotion
@@ -666,19 +666,19 @@
 
 #p,#communicateGray
 {
-    font-family:sans-serif;
+    font-family:helvica;
     color:gray;
     font-size:16px;
 }
 
 #p1
 {
-    font-family:sans-serif;
+    font-family:helvica;
     color:gray;
     font-size:12px;
     position:relative;
     top:-20px;
-    left:50px;    
+    left:50px;
 }
 
 #us
@@ -692,7 +692,7 @@
     position:relative;
     top:-700px;
     left:340px;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:15px;
     width:600px;
     height:100px;
@@ -715,7 +715,7 @@
     position:relative;
     top:-600px;
     left:340px;
-    font-family:sans-serif;
+    font-family:helvica;
     font-size:15px;
     width:600px;
 }
@@ -759,7 +759,69 @@
     color:#999999
 }
 
+#deductible
+{
+    width:1020px;
+    height:990px;
+}
 
+#deductibleText
+{
+    width:600px;
+    height:800px;
+    position:relative;
+    top:-700px;
+    left:350px;
+    color: #999999;
+    font-size:13px;
+}
 
+.h4{
+    color:#ee1c24;
+    font-family:helvica;
+    font-size:15px;
+    margin:0 auto;
+
+}
+.p
+{
+     color:#999999;
+     margin:0 auto;
+}
+
+#faqs
+{
+    width:1020px;
+    height:990px;
+}
+
+#questions
+{
+    width:600px;
+    height:990px;
+    position:relative;
+    top:-700px;
+    left:300px;
+    color:#999999;
+}
+
+#faqsRed
+{
+    color:red;
+    font-family:helvica;
+    position:relative;
+    top:-700px;
+    left:300px;
+}
+
+#answer,#question
+{
+    color:gray;
+    font-family:helvica;
+    position:relative;
+    top:-1100px;
+    left:400px;
+    width:600px;
+}
 
 
