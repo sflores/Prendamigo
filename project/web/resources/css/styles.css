@@ -23,55 +23,57 @@
 }
 
 #messagePrincipal {
-    font-size: 20px;
-    color: white;
-    font-family:helvica;
-    text-align: center;
-    position: relative;
-    width: 515px;
-    height: 94px;
-    left: 269px;
-    top: -120px;
+    font-size:22px;
+    color:white;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    text-align:center;
+    position:relative;
+    width:515px;
+    height:94px;
+    left:269px;
+    top: -90px;
 }
 
 #barheader {
     position: relative;
     width: 724px;
     height: 22px;
-    top: -245px;
+    top: -220px;
     left: 270px;
-    font-size: 16.3px;
+    font-size: 13px;
     color: white;
-    font-family: helvica;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     text-align: center;
-    text-decoration:none;
 }
 
 #yellow {
-    font-family:helvica;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     color: #f6f60b;
 }
 
 #message {
     color: #ffff33;
     text-align: center;
-    font-family:helvica;
-    font-size: 18px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 10px;
 }
 
 #buttons {
-    position: relative;
+   position: relative;
     width: 174px;
     height: 92px;
-    top: -250px;
+    top: -230px;
     left: 810px;
 }
 
 #facebook {
     background: url("/resources/image/Image.png") no-repeat;
     position: absolute;
-    top: 50px;
-    right: 125px;
+    top: 60px;
+    right: 135px;
     width: 33px;
     height: 33px;
     background-position: -235px -129px !important;
@@ -81,8 +83,8 @@
 #twitter {
     background: url("/resources/image/Image.png") no-repeat;
     position: absolute;
-    top: 50px;
-    left: 85px;
+    top: 60px;
+    left: 75px;
     background-position: -268px -129px !important;
     width: 33px;
     height: 33px;
@@ -91,95 +93,83 @@
 #youtube {
     background: url("/resources/image/Image.png") no-repeat;
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 150px;
     width: 33px;
     height: 33px;
     background-position: -301px -129px !important;
 }
 
-#tableButton
-{
-    text-align: center;
-    font-family:helvica;
+#tableButton {
+   text-align: center;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     font-size: 13px;
-    color:white;
+    color: white;
     position: relative;
-    top:-20px;
-    left:-8px
-    }
+    top: 0px;
+    left: -25px;
+}
 
 #divFooter {
     background: url("/resources/image/Image.png") no-repeat;
     position: relative;
     width: 1020px;
     height: 341px;
-    background-position: 0 -244px !important;
+    background-position: -1px -244px !important;
     z-index: 1;
 }
 
-#Survey
-{
-    width: 400px;
-    height: 190px;
+#tableSurvey {
+    background: url("/resources/image/Image.png") no-repeat;
+    background-position: -226px -586px !important;
+    width: 233px;
+    height: 185px;
+}
+
+#graySurvey {
     position: relative;
-    top: 0;
+    width: 200px;
+    height: 180px;
+    top: 30px;
     left: 30px;
 }
 
-#tableSurvey
-{
-    background:url("/resources/image/Image.png") no-repeat;
-    background-position: -226px -586px !important;
-    width:233px;
-    height:185px;
-}
-
-#graySurvey
-{
- position:relative;
-    width:200px;
-    height:180px;
-    top:30px;
-    left:30px;
-}
-
-#submit
-{
-    background:url("/resources/image/Image.png") no-repeat;
+#submit {
+    background: url("/resources/image/Image.png") no-repeat;
     background-position: -234px -187px !important;
-    position:relative;
+    position: relative;
     width: 51px;
     height: 20px;
-    left:160px;
-    border:none;
+    left: 160px;
+    border: none;
 }
-
 
 #divCenter {
     width: 470px;
     height: 250px;
     position: relative;
-    top: -160px;
-    left: 282px;
+    top: -220px;
+    left: 280px;
     z-index: 1;
+    color: #666666;
+    font-size: 11px;
 }
 
-#1, #2, #3, #4 {
-    font-size: 3px;
-    color: #999999;
+#1, #2, #3 {
+    font-size: 2px;
+    color: #666666;
     text-align: center;
 }
 
 #watch {
-    background:url("/resources/image/Image.png");
+    background: url("/resources/image/Image.png");
     background-position: -305px -213px !important;
     position: relative;
     width: 78px;
     height: 30px;
     top: 0;
     left: -100px;
-    border:none;
+    border: none;
 }
 
 #video {
@@ -189,7 +179,7 @@
     width: 121px;
     height: 99px;
     z-index: 2;
-    top: -10px;
+    top: 30px;
     left: 110px;
 }
 
@@ -197,8 +187,8 @@
     width: 250px;
     height: 300px;
     position: relative;
-    top: -450px;
-    left: 765px;
+    top: -480px;
+    left: 760px;
     z-index: 1;
 }
 
@@ -206,66 +196,65 @@
     position: relative;
     width: 100px;
     height: 90px;
-    top: -50px;
+    top: -120px;
     left: 0;
     z-index: 3;
-    font-size: 12px;
-    font-family:helvica;
+    font-size: 10px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
 }
 
 #search {
-    background:url("/resources/image/Image.png");
+    background: url("/resources/image/Image.png");
     background-position: -303px -168px !important;
     position: relative;
-    width:77px;
-    height:20px;
-    top: 60px;
+    width: 77px;
+    height: 20px;
+    top: 130px;
     left: 150px;
-    border:none;
+    border: none;
 }
 
 #sMessage {
     position: relative;
     width: 180px;
     height: 50px;
-    top: 70px;
-    left: 0;
-    font-family:helvica;
-    font-size:11px;
-    color: #999999;
+    top: 120px;
+    left: 10px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 10px;
+    color: #666666;
 }
 
 #links {
-    font-size: 11px;
-    font-family:helvica;
-    color: #999999;
+    font-size: 9px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: #666666;
     position: relative;
     width: 200px;
     height: 100px;
-    top: -140px;
-    left: 260px;
+    top: -100px;
+    left: 260px;    
 }
 
-#videop,#attentionHeader,#communicate,#footerAttention
-{
-    font-size: 17px;
-    font-family:helvica;
+#videop, #attentionHeader, #communicate {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     color: #df0f0f;
     position: relative;
-    top: 10px;
+    top: 0px;
     left: -100px;
 }
 
-#rh
-{
-    font-size:12px;
-    font-family:helvica;
+#rh {
+    font-size: 15px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     color: #df0f0f;
 }
 
 #link {
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     font-size: 18px;
-    color: #ff0033;
+    color: #df0f0f;
     position: relative;
     top: 10px;
     left: 0;
@@ -277,8 +266,8 @@
     width: 225px;
     height: 136px;
     position: relative;
-    top: 30px;
-    left: 0;
+    top: 0px;
+    left: 10px;
     z-index: 2;
 }
 
@@ -288,540 +277,589 @@
     width: 42px;
     height: 40px;
     position: relative;
-    top: -70px;
+    top: -80px;
     left: 190px;
     z-index: 3;
 }
 
 #barFooter {
-    width: 1020px;
+    width: 800px;
     height: 30px;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
-    font-family:helvica;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     position: relative;
-    top: -440px;
-    left: 60px;
+    top: -500px;
+    left: 30px;
+    z-index: 24;    
 }
 
-#barButton
-{
-    width: 1020px;
+#barButton {
+    width: 200px;
     height: 30px;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
-    font-family:helvica;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     position: relative;
-    top: -470px;
-    left: 800px;
+    top: -530px;
+    left: 830px;    
 }
 
 #footer {
     width: 1020px;
-    height: 40px;
+    height: 30px;
     position: relative;
-    top: -430px;
+    top: -470px;
     left: 0;
 }
 
 #r {
     text-align: right;
-    font-size: 17px;
-    color: #999999;
+    font-size: 15px;
+    color: #666666;
 }
 
-#r2
-{
+#r2 {
     text-align: right;
+    font-size: 12px;
+    color: #666666;
+    position:relative;
+    top:10px;    
+}
+
+#begin {
+    width: 1020px;
+    height: 730px;
+}
+
+#bannerAttention {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -1100px !important;
+    width: 235px;
+    height: 372px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+#enter {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -191px !important;
+    width: 74px;
+    height: 20px;
+    position: relative;
+    top: -30px;
+    left: 170px;
+    border: none;
+    z-index: 10;
+}
+
+
+#enterAttention {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -191px !important;
+    width: 74px;
+    height: 20px;
+    position: relative;
+    top: 290px;
+    left: 130px;
+    border: none;
+    z-index: 11;
+}
+
+#greenMore {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -468px -691px !important;
+    width: 78px;
+    height: 61px;
+    position: relative;
+    top: 315px;
+    left: 152px;
+    border: none;
+    z-index: 12;
+}
+
+#titleNeed {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -461px -589px !important;
+    width: 220px;
+    height: 28px;
+    position: relative;
+    top: -350px;
+    left: 290px;
+    z-index: 1;
+}
+
+#imageNeed {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -236px -1234px !important;
+    width: 221px;
+    height: 132px;
+    position: relative;
+    top: -350px;
+    left: 290px;
+    z-index: 2;
+}
+
+#needText {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -350px;
+    left: 300px;
+    z-index: 3;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 12px;    
+    color: #666666;        
+}
+
+#needButton, #branchButton, #promotionButton {
+    border: none;
+}
+
+
+#branch {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -463px -621px !important;
+    width: 218px;
+    height: 28px;
+    position: relative;
+    top: -727px;
+    left: 540px;
+}
+
+#imagebranch {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -459px -1101px !important;
+    width: 222px;
+    height: 132px;
+    position: relative;
+    top: -730px;
+    left: 538px;
+}
+
+#branchText {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    top: -725px;
+    left: 540px;
+    z-index: 4;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 12px;
+    color: #666666;
+}
+
+#promotion {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -462px -654px !important;
+    width: 222px;
+    height: 28px;
+    position: relative;
+    top: -1105px;
+    left: 780px;
+}
+
+#imagePromotion {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -236px -1101px !important;
+    width: 220px;
+    height: 131px;
+    position: relative;
+    top: -1105px;
+    left: 780px;
+}
+
+#promotionText {
+    position: relative;
+    top: -1100px;
+    left: 790px;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 12px;
+    color: #666666;
+}
+
+#seeMore {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -516px -130px !important;
+    width: 81px;
+    height: 24px;
+    position: relative;
+    top: 120px;
+    border: none;
+    left: 400px;
+}
+
+.input {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -516px -130px !important;
+    width: 81px;
+    height: 24px;
+}
+
+#tableSee {
+    position: relative;
+    top: -140px;
+    left: -540px;
+}
+
+#detailsRed, #usRed {
+    color: #ee1c24;
+}
+
+#attention {
+    width: 1020px;
+    height: 800px;
+}
+
+#goldPromotion {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -1474px !important;
+    width: 230px;
+    height: 375px;
+    position: relative;
+    top: 10px;
+    left: 31px;
+}
+
+#bannerBegin {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -771px !important;
+    width: 1003px;
+    height: 328px;
+    position: relative;
+    top: -0px;
+    left: 10px;
+
+}
+
+#bannerAttention2 {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: 0 -1100px !important;
+    width: 235px;
+    height: 372px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#attentionHeader {
+    position: relative;
+    top: -1030px;
+    left: 290px;
+    width: 600px;
+    height: 100px;
+}
+
+#communicate {
+    position: relative;
+    font-size: 18px;
+    top: -1050px;
+    left: 600px;
+    width: 400px;
+    height: 200px;
+}
+
+#phone {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -239px -1480px !important;
+    width: 371px;
+    height: 315px;
+    position: relative;
+    top: -1100px;
+    left: 600px;
+    z-index: 8;
+}
+
+#footerAttention {
+    font-size: 15px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: #df0f0f;
+    position: relative;
+    top: -1100px;
+    left: 550px;
+    width: 600px;
+    height: 100px;
+}
+
+#contact {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -685px -1100px !important;
+    width: 274px;
+    height: 379px;
+    position: relative;
+    top: -550px;
+    left: 280px;
+}
+
+#contentForm {
+    position: relative;
+    top: 35px;
+    left: 20px;
+    width: 400px;
+    height: 180px;
+}
+
+#send {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -517px -218px !important;
+    width: 74px;
+    height: 19px;
+    position: relative;
+    top: 30px;
+    left: -80px;
+    border: none;
+    z-index: 9;
+}
+
+#p, #communicateGray {
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: #666666;
     font-size: 14px;
+}
+
+#p1 {
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: #666666;
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+    left: 50px;
+}
+
+#us {
+    width: 1020px;
+    height: 800px;
+}
+
+#route {
+    position: relative;
+    top: 30px;
+    left: 300px;
+    font-size: 14px;
+}
+
+#red {
+    color: #df0f0f;
+    text-decoration: none;
+}
+
+#red2 {
+    color: #df0f0f;
+    position: relative;
+    top: 0;
+    left: -40px;
+    width: 450px;
+}
+
+#grayDark {
+    color: #666666;
+    text-decoration: none;
+}
+
+#gray {
     color: #999999;
+    text-decoration: none;
+}
+
+#usText {
+    position: relative;
+    top: -700px;
+    left: 340px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 13px;
+    width: 600px;
+    height: 100px;
+}
+
+#prendamigoImage {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -239px -1368px !important;
+    position: relative;
+    top: -660px;
+    left: 450px;
+    z-index: 13;
+    width: 331px;
+    height: 112px;
+}
+
+#details {
+    position: relative;
+    top: -600px;
+    left: 340px;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 13px;
+    width: 600px;
+}
+
+#buttonsDetails {
+    position: relative;
+    top: -450px;
+    left: 600px;
+    border: none;
+}
+
+#printerImage {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -578px -155px !important;
+    width: 62px;
+    height: 56px;
+    border: none;
+}
+
+#adobe {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -516px -155px !important;
+    border: none;
+    width: 61px;
+    height: 54px;
+}
+
+#seeMore3 {
+    background: url(/resources/image/Image.png) no-repeat;
+    background-position: -305px -213px !important;
+    border: none;
+    width: 78px;
+    height: 30px;
+}
+
+#usGray, #usGray2, #detailsGray, #detailsGray2 {
+    color: #666666;
+}
+
+#deductible {
+    width: 1020px;
+    height: 910px;
+}
+
+#deductibleText {
+    width: 680px;
+    height: 800px;
+    position: relative;
+    top: -700px;
+    left: 300px;
+    color: #666666;
+    font-size: 13px;
+}
+
+.h2 {
+    color: #ee1c24;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 13px;
+    margin: 0 auto;
+
+}
+
+.p {
+    color: #666666;
+    font-size:15px;
+    margin: 0 auto;
+}
+
+#faqs {
+    width: 700px;
+    height: 980px;
+}
+
+#hide {
+    position: relative;
+    top: -700px;
+    left: 300px;
+}
+
+#chat {
+    position: relative;
+    top: 300px;
+    left: 140px;
+    z-index: 17;
+}
+
+#black {
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+#Surveydeductible {
+    position: relative;
+    top: -395px;
+    left: 30px;
+}
+
+.red {
+    color: #ee1c24;
+}
+
+#news {
+    position: relative;
+    width: 50px;
+    top: 0;
+    left: 0;
+    z-index: 21;
+    color: #ee1c24;
+}
+
+#surveyFaqs {
+    position: relative;
+    top: -235px;
+    left: 30px;
+}
+
+#frame {
+    width: 233px;
+    height: 400px;
+    position: relative;
+    top: -110px;
+    left: 0;
+}
+
+#form {
+    width: 233px;
+    height: 185px;
+    position: absolute;
+    top: -800px;
+    left: 0;
+}
+
+#survey {
+    width: 230px;
+    height: 255px;
+    position: relative;
+    top: -30px;
+    left: 32px;
+    z-index: 22;
 }
 
 .a
 {
     color:white;
     text-decoration:none;
-    margin-right: 2px;
-    margin-left: 2px;
 }
 
-#begin
+#object
 {
-     width:1020px;
-     height:750px;
-}
-
-#bannerBegin
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: 0 -771px !important;
-    width:1003px;
-    height:328px;
+    width:1010px;
+    height:330px;
+    z-index:5;
     position:relative;
     top:0;
-    left:0;
+    left:-30px;
 }
 
-#bannerAttention
+.link
 {
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: 0 -1100px !important;
-    width:235px;
-    height:372px;
-    position:relative;
-    top:55px;
-    left:30px;
-}
-
-#enter
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -305px -191px !important;
-    width:74px;
-    height:20px;
-    position:relative;
-    top:-30px;
-    left:170px;
-    border:none;
-    z-index:10;
-}
-
-#enterAttention
-{
-  background:url(/resources/image/Image.png) no-repeat;
-    background-position: -305px -191px !important;
-    width:74px;
-    height:20px;
-    position:relative;
-    top:290px;
-    left:130px;
-    border:none;
-    z-index:11;
-}
-
-#greenMore
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -468px -691px !important;
-    width:78px;
-    height:61px;
-    position:relative;
-    top:315px;
-    left:152px;
-    border:none;
-    z-index:12;
-}
-
-#titleNeed
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -461px -589px !important;
-    width:220px;
-    height:28px;
-    position:relative;
-    top:-330px;
-    left:300px;
-    z-index:1;
-}
-
-#imageNeed
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -236px -1234px !important;
-    width:221px;
-    height:132px;
-    position:relative;
-    top:-330px;
-    left:300px;
-    z-index:2;
-}
-
-#needText
-{
-    position:relative;
-    width:200px;
-    height:200px;
-    top:-330px;
-    left:310px;
-    z-index:3;
-    font-family:helvica;
-    font-size:14px;
-    color: #999999;
-}
-
-#needButton,#branchButton,#promotionButton
-{
-    border:none;
-}
-
-.ul
-{
-    position:relative;
-    top:-10px;
-    left:-20px;
-}
-
-#branch
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -463px -621px !important;
-    width:218px;
-    height:28px;
-    position:relative;
-    top:-690px;
-    left:550px;
-}
-
-#imagebranch
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -459px -1101px !important;
-    width:222px;
-    height:132px;
-    position:relative;
-    top:-690px;
-    left:548px;
-}
-
-#branchText
-{
-    position:relative;
-    width:220px;
-    height:200px;
-    top:-690px;
-    left:560px;
-    z-index:4;
-    font-family:helvica;
-    font-size:14px;
-    color: #999999;
-}
-
-#promotion
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -462px -654px !important;
-    width:222px;
-    height:28px;
-    position:relative;
-    top:-1050px;
-    left:790px;
-}
-
-#imagePromotion
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -236px -1101px !important;
-    width:220px;
-    height:131px;
-    position:relative;
-    top:-1050px;
-    left:790px;
-}
-
-#promotionText
-{
-    position:relative;
-    top:-1050px;
-    left:800px;
-    width:200px;
-    height:200px;
-    z-index:4;
-    font-family:helvica;
-    font-size:14px;
-    color: #999999;
-}
-
-#seeMore
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -516px -130px !important;
-    width:81px;
-    height:24px;
-    position:relative;
-    top:120px;
-    border:none;
-    left:400px;
-}
-
-.input
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -516px -130px !important;
-    width:81px;
-    height:24px;
-}
-
-#tableSee
-{
-   position:relative;
-    top:-150px;
-    left:-540px;
-}
-
-#detailsRed,#usRed
-{
-    color:#ee1c24;
-}
-
-#attention
-{
-    width:1020px;
-    height:750px;
-}
-
-#goldPromotion
-{
-   background:url(/resources/image/Image.png) no-repeat;
-   background-position: 0 -1474px !important;
-   width:230px;
-   height:375px;
-   position:relative;
-   top:10px;
-   left:31px;
-}
-
-#bannerAttention2
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: 0 -1100px !important;
-    width:235px;
-    height:372px;
-    position:relative;
-    top:10px;
-    left:30px;
-}
-
-#attentionHeader
-{
- position:relative;
-    top:-1030px;
-    left:290px;
-    width:600px;
-    height:100px;
-}
-
-#communicate
-{
- position:relative;
-    font-size:20px;
-    top:-1050px;
-    left:600px;
-    width:400px;
-    height:200px;
-}
-
-#phone
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -239px -1480px !important;
-    width:371px;
-    height:315px;
-    position:relative;
-    top:-1150px;
-    left:600px;
-    z-index:8;
-}
-
-#footerAttention
-{
-    position:relative;
-    top:-1160px;
-    left:550px;
-    width:600px;
-    height:100px;
-}
-
-#contact
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -685px -1100px !important;
-    width:274px;
-    height:379px;
-    position:relative;
-    top:-550px;
-    left:290px;
-}
-
-#contentForm
-{
-    position:relative;
-    top:35px;
-    left:20px;
-    width:400px;
-    height:180px;
-}
-
-#send
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -517px -218px !important;
-    width:74px;
-    height:19px;
-    position:relative;
-    top:30px;
-    left:-80px;
-    border:none;
-    z-index:9;
-}
-
-#p,#communicateGray
-{
-    font-family:helvica;
-    color:gray;
-    font-size:16px;
-}
-
-#p1
-{
-    font-family:helvica;
-    color:gray;
     font-size:12px;
-    position:relative;
-    top:-20px;
-    left:50px;
+    
 }
 
-#us
-{
-    width:1020px;
-    height:750px;
+.form
+{    
+    width:235px;
+    height:15px;
 }
-
-#usText
-{
-    position:relative;
-    top:-700px;
-    left:340px;
-    font-family:helvica;
-    font-size:15px;
-    width:600px;
-    height:100px;
-    }
-
-#prendamigoImage
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -239px -1368px !important;
-    position:relative;
-    top:-660px;
-    left:450px;
-    z-index:13;
-    width:331px;
-    height:112px;
-}
-
-#details
-{
-    position:relative;
-    top:-600px;
-    left:340px;
-    font-family:helvica;
-    font-size:15px;
-    width:600px;
-}
-
-#buttonsDetails
-{
-    position:relative;
-    top:-600px;
-    left:600px;
-    border:none;
-}
-
-#printerImage
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position:-578px -155px !important;
-    width:62px;
-    height:56px;
-    border:none;
-}
-
-#adobe
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -516px -155px !important;
-    border:none;
-    width:61px;
-    height:54px;
-}
-
-#seeMore3
-{
-    background:url(/resources/image/Image.png) no-repeat;
-    background-position: -305px -213px !important;
-    border:none;
-    width:78px;
-    height:30px;
-}
-#usGray,#usGray2,#detailsGray,#detailsGray2
-{
-    color:#999999
-}
-
-#deductible
-{
-    width:1020px;
-    height:990px;
-}
-
-#deductibleText
-{
-    width:600px;
-    height:800px;
-    position:relative;
-    top:-700px;
-    left:350px;
-    color: #999999;
-    font-size:13px;
-}
-
-.h4{
-    color:#ee1c24;
-    font-family:helvica;
-    font-size:15px;
-    margin:0 auto;
-
-}
-.p
-{
-     color:#999999;
-     margin:0 auto;
-}
-
-#faqs
-{
-    width:1020px;
-    height:990px;
-}
-
-#questions
-{
-    width:600px;
-    height:990px;
-    position:relative;
-    top:-700px;
-    left:300px;
-    color:#999999;
-}
-
-#faqsRed
-{
-    color:red;
-    font-family:helvica;
-    position:relative;
-    top:-700px;
-    left:300px;
-}
-
-#answer,#question
-{
-    color:gray;
-    font-family:helvica;
-    position:relative;
-    top:-1100px;
-    left:400px;
-    width:600px;
-}
-
-
