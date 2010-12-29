@@ -1,0 +1,40 @@
+body {
+    font-size: 75%;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.h1
+{
+    color:#ee1c24;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.accordionItem h2 {
+    margin: 0;
+    font-size: 1.1em;
+    padding: 0.4em;
+    color: blue;
+}
+
+.accordionItem h2:hover {
+    cursor: pointer;
+}
+
+.accordionItem.hide div {
+    display: none;
+}
+
+accordionItem.p
+{
+   text-align:justify; 
+}
+
+accordionItem.a
+{
+   text-decoration:underline;
+}
+
+accordionItem.red
+{
+  color:#ee1c24;
+}
