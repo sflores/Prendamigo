@@ -16,7 +16,9 @@
       </facet>
       <facet type="google-app-engine" name="Google App Engine">
         <configuration>
+          <password>df9adf9bdf9bdf9adf9ddf9fdf9ddf9d</password>
           <sdk-home-path>$MODULE_DIR$/../../PrendaNet/lib/appengine-java-sdk-1.3.6</sdk-home-path>
+          <email>sflores@prendamigo.com</email>
         </configuration>
       </facet>
     </facet>
@@ -31,6 +33,7 @@
     <orderEntry type="library" name="AppEngine API" level="project" />
     <orderEntry type="library" name="El" level="project" />
     <orderEntry type="library" name="MyFaces" level="project" />
+    <orderEntry type="library" name="Apache Wink" level="project" />
   </component>
 </module>
 
