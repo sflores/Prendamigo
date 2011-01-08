@@ -4,20 +4,21 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets" xml:lang="en" lang="en">
 <head>
-     <script type="text/javascript">
+    <script type="text/javascript">
         function preLoadImage()
         {
             image = new Image();
-            image.scr ="/resources/image/Image.png";
-        }
+            image.scr = "/resources/image/Image.png";
+        }   
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" media="all" href="resources/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="resources/css/styles.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="resources/css/accordion.css" />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link rel="stylesheet" type="text/css" media="all" href="resources/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="resources/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="resources/css/accordion.css"/>
     <title>Prendamigo</title>
 </head>
 <body onload="preLoadImage()">
-    <ui:insert name="content">Default Body</ui:insert>
+<ui:insert name="content">Default Body</ui:insert>
 </body>
 </html>
