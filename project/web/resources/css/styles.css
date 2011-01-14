@@ -170,15 +170,9 @@
     color: white;
     font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     position: relative;
-<<<<<<< HEAD
     top: -305px;
     left: 100px;
     z-index: 24;    
-=======
-    top: -100px;
-    left: 90px;
-    z-index: 24;
->>>>>>> origin/master
 }
 
 #footer {
@@ -194,11 +188,7 @@
     font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     color: #df0f0f;
     position: relative;
-<<<<<<< HEAD
     top: -1400px;
-=======
-    top: -1100px;
->>>>>>> origin/master
     left: 550px;
     width: 600px;
     height: 100px;
@@ -215,20 +205,12 @@
     font-size: 12px;
     color: #666666;
     position:relative;
-<<<<<<< HEAD
     top:-280px;
-=======
-    top:-80px;
->>>>>>> origin/master
 }
 
 #begin {
     width: 1020px;
-<<<<<<< HEAD
     height: 900px;
-=======
-    height: 800px;
->>>>>>> origin/master
 }
 
 #bannerAttention {
@@ -353,11 +335,7 @@
 
 #attention {
     width: 1020px;
-<<<<<<< HEAD
     height: 1000px;
-=======
-    height: 850px;
->>>>>>> origin/master
 }
 
 #goldPromotion {
@@ -418,7 +396,6 @@
     z-index: 8;
 }
 
-<<<<<<< HEAD
 
 #p{
     font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -428,17 +405,6 @@
 
  #communicateGray{
 
-=======
-
-#p{
-    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-    color: #666666;
-    font-size: 14px;
-}
-
- #communicateGray{
-
->>>>>>> origin/master
     font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
     color: #666666;
     font-size: 15px;
@@ -474,11 +440,7 @@
 
 #us {
     width: 1020px;
-<<<<<<< HEAD
     height: 1000px;
-=======
-    height: 870px;
->>>>>>> origin/master
 }
 
 #route {
@@ -548,11 +510,7 @@
 
 #deductible {
     width: 1020px;
-<<<<<<< HEAD
     height: 1000px;
-=======
-    height: 925px;
->>>>>>> origin/master
 }
 
 #deductibleText {
@@ -626,11 +584,7 @@
     height: 250px;
     border: none;
     position: relative;
-<<<<<<< HEAD
     top: -100px;
-=======
-    top: -65px;
->>>>>>> origin/master
     left: 32px;
     z-index: 22;
 }
@@ -698,11 +652,7 @@
     font-size:18px;
     color:#999999;
     position:relative;
-<<<<<<< HEAD
     top:-400px;
-=======
-    top:-250px;
->>>>>>> origin/master
     left:700px;
 }
 
@@ -712,19 +662,9 @@
     top:10px;
 }
 
-<<<<<<< HEAD
 #contact {   
     position: relative;
     top: -600px;
-=======
-#contact {
-    background: url(/resources/image/Image.png) no-repeat;
-    background-position: -685px -1100px !important;
-    width: 274px;
-    height: 379px;
-    position: relative;
-    top: -550px;
->>>>>>> origin/master
     left: 280px;
 }
 
@@ -746,7 +686,6 @@
     left: 20px;
     width: 400px;
     height: 180px;
-<<<<<<< HEAD
 }
 
 #survey
@@ -790,6 +729,3 @@
     width:260px;
     height:65px;    
 }
-=======
-}
->>>>>>> origin/master
