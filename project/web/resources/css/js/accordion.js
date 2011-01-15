@@ -10,7 +10,7 @@ function init()
     for (var i = 0; i < accordionItems.length; i++)
     {
         var h2 = getFirstChildWithTagName(accordionItems[i], 'H2');
-        h2.onclick = toggleItem;
+        h2.onclick = toggleItem;                
     }
 
     for (var i = 1; i < accordionItems.length; i++)

@@ -729,3 +729,16 @@
     width:260px;
     height:65px;    
 }
+
+#barFooterA
+{
+    width: 900px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    position: relative;
+    top: -370px;
+    left: 100px;
+    z-index: 24;
+}
